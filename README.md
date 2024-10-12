@@ -55,6 +55,8 @@ anton.displayInfo();
 riko.displayInfo();
 ```
 Setelah objek dibuat, kita memanggil metode ```displayInfo()``` untuk menampilkan informasi dari masing-masing objek ````anton dan riko```. Metode ini mencetak ke konsol atribut-atribut yang ada pada objek tersebut.
+<b> Hasil utputnya</b>
+!(enkapsulasi/png)
 
 Ringkasan:
 Program ini mendefinisikan kelas Person dengan atribut nama, jenisKelamin, dan umur. Atribut-atribut ini memiliki akses modifier private, sehingga tidak bisa diakses langsung dari luar kelas. Program kemudian menggunakan getter untuk mendapatkan informasi dari atribut privat tersebut dan menampilkan informasi menggunakan metode displayInfo(). Di dalam kelas utama, dua objek Person dibuat dengan nama anton dan riko, dan informasi mereka ditampilkan ke konsol.
